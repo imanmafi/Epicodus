@@ -9,10 +9,43 @@
 	<title> Bootstrap version of Epicodus Layout Test</title>
 	</head>
 
-	<body>
-	Hey brah!
+<body>
+<div id="wrap">
+	<div id="header"><h1>Epicodus Layout Test - Fun Facts</h1></div>
+	<div id="nav">
+		<ul>
+			<li><a href="http://facts.randomhistory.com/interesting-facts-about-cats.html">Cats</a></li>
+			<li><a href="http://facts.randomhistory.com/2009/02/15_dogs.html">Dogs</a></li>
+			<li><a href="http://facts.randomhistory.com/2008/11/20_dolphins.html">Dolphins</a></li>
 
-	</body>
+		</ul>
+	</div>
+	<div id="main">
+		<h2>Fun Facts</h2>
+		<p><a href="http://facts.randomhistory.com/interesting-facts-about-cats.html">Interesting Facts About Cats</a></p>
+		
+		<p>On average, cats spend 2/3 of every day sleeping. That means a nine-year-old cat has been awake for only three years of its life.</p>
+		<p>Unlike dogs, cats do not have a sweet tooth. Scientists believe this is due to a mutation in a key taste receptor.</p>
+		<p>A cat brain is biologically more similar to a human brain than it is to a dog brain. Both humans and cats have identical regions in their brains that are responsible for emotions.</p>
+		<h3>Even More Feline Fun</h3>
+		<p>The first cat in space was a French cat named Felicette (a.k.a. Astrocat) In 1963, France blasted the cat into outer space. Electrodes implanted in her brains sent neurological signals back to Earth. She survived the trip.</p>
+		<p>Foods that should not be given to cats include onions, garlic, green tomatoes, raw potatoes, chocolate, grapes, and raisins. Though milk is not toxic, it can cause an upset stomach and gas. Tylenol and aspirin are extremely toxic to cats, as are many common houseplants. Feeding cats dog food or canned tuna that is for human consumption can cause malnutrition.</p>
+	</div>
+	<div id="sidebar">
+		<h2>News Stations</h2>
+		<p>Cats have been seen on: </p>
+		<ul>
+			<li><a href="http://abc.com">ABC</a></li>
+			<li><a href="http://nbc.com">NBC</a></li>
+			<li><a href="http://cbs.com">CBS</a></li>
+			<li><a href="http://cnn.com">CNN</a></li>			
+		</ul>
+	</div>
+	<div id="footer">
+		<p>2015 All Animal Rights Reserved</p>
+	</div>
+</div>
+</body>
 
 
 	</html>
